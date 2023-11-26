@@ -17,7 +17,7 @@ Todo API is a Django Rest Framework api backend.
 3. Create working directory:
 
    ```bash
-   mkdir ~/TODO_API && cd ~/TODO_API
+   mkdir ~/TODO && cd ~/TODO
    ```
 
 4. Clone the repository
@@ -27,9 +27,35 @@ Todo API is a Django Rest Framework api backend.
    ```
 
 5. Start the application
+
    ```bash
     docker-compose up -d
    ```
+
+6. Access API: http://127.0.0.1:8000/api/
+
+7. Access DB: 127.0.0.1:5432
+
+8. Don't forget .env file with variables
+
+| Variable          | Value                                                                 |
+| ----------------- | --------------------------------------------------------------------- |
+| SECRET_KEY        | "django-insecure-%2dmqnqj9v2e&8yk\*t=#b+2-=i!45+153*@-g0*=&%1od16z^m" |
+| DEBUG             | False                                                                 |
+| DATABASE_ENGINE   | django.db.backends.postgresql                                         |
+| DATABASE_HOST     | DATABASE_HOST="db"                                                    |
+| DATABASE_PORT     | "5432"                                                                |
+| DATABASE_NAME     | "todo"                                                                |
+| DATABASE_USER     | "todo"                                                                |
+| DATABASE_PASSWORD | "todo"                                                                |
+| POSTGRES_DB       | "todo"                                                                |
+| POSTGRES_USER     | "todo"                                                                |
+| POSTGRES_PASSWORD | "todo"                                                                |
+
+you can use this .env file [here](./.env)
+
+note:
+these variable for lab environment only... don't use these in xxx production environments xxx
 
 ---
 

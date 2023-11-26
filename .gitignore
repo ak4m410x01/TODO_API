@@ -120,7 +120,8 @@ celerybeat.pid
 *.sage.py
 
 # Environments
-.env
+# .env uncomment in production environment
+# !.env
 .venv
 env/
 venv/
