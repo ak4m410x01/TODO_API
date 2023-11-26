@@ -29,6 +29,7 @@ services:
       client_side:
     depends_on:
       - db
+    restart: always
     command:
       [
         "bash",
