@@ -4,6 +4,10 @@
 
 Todo API is a Django Rest Framework API backend.
 
+<div align="center">
+   <img src="./assets/images/cover.png">
+</div>
+
 ## ⚙ Tools and Technologies used
 
 1. [Python](https://www.python.org/)
