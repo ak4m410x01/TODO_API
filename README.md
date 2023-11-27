@@ -2,7 +2,11 @@
 
 ## Details
 
-Todo API is a Django Rest Framework API backend.
+### Key Features:
+
+ - Django Rest Framework: Implemented RESTful endpoints to facilitate seamless communication between the front and back end, ensuring optimal performance and scalability.
+ - PostgreSQL Database: Designed and maintained a PostgreSQL database to store and manage TODO tasks efficiently, ensuring data integrity and reliability.
+ - User Authentication: Implemented secure authentication mechanisms using Tokens to control access to the TODO API, prioritizing data security and privacy.
 
 <div align="center">
    <img src="./assets/images/cover.png">
