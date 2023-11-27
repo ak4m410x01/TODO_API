@@ -2,7 +2,7 @@
 
 ## Details
 
-Todo API is a Django Rest Framework api backend.
+Todo API is a Django Rest Framework API backend.
 
 ## ⚙ Tools and Technologies used
 
@@ -14,7 +14,7 @@ Todo API is a Django Rest Framework api backend.
 
 1. Install Docker [here](https://www.docker.com/get-started/)
 2. Install Git [here](https://git-scm.com/downloads)
-3. Create working directory:
+3. Create a working directory:
 
    ```bash
    mkdir ~/TODO && cd ~/TODO
@@ -42,8 +42,8 @@ Todo API is a Django Rest Framework api backend.
 | ----------------- | --------------------------------------------------------------------- |
 | SECRET_KEY        | "django-insecure-%2dmqnqj9v2e&8yk\*t=#b+2-=i!45+153*@-g0*=&%1od16z^m" |
 | DEBUG             | False                                                                 |
-| DATABASE_ENGINE   | django.db.backends.postgresql                                         |
-| DATABASE_HOST     | DATABASE_HOST="db"                                                    |
+| DATABASE_ENGINE   | "django.db.backends.postgresql"                                       |
+| DATABASE_HOST     | "db"                                                                  |
 | DATABASE_PORT     | "5432"                                                                |
 | DATABASE_NAME     | "todo"                                                                |
 | DATABASE_USER     | "todo"                                                                |
@@ -55,7 +55,7 @@ Todo API is a Django Rest Framework api backend.
 you can use this .env file [here](./.env)
 
 note:
-these variable for lab environment only... don't use these in xxx production environments xxx
+these variables are for the lab environment only... don't use these in xxx production environments xxx
 
 ---
 
