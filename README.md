@@ -112,9 +112,9 @@ these variables are for the lab environment only... don't use these in xxx produ
         | Endpoints                                  | Use                 |
         | ------------------------------------------ | ------------------- |
         | POST `{{base_url}}/api/users/`             | Rgister New User    |
-        | GET `{{base_url}}/api/tasks/<int:id>/`     | Get User Details    |
-        | PUT `{{base_url}}/api/tasks/<int:id>/`     | Update User Details |
-        | DELETE `{{base_url}}/api/tasks/<int:id>/`  | Delete Task         |
+        | GET `{{base_url}}/api/users/<int:id>/`     | Get User Details    |
+        | PUT `{{base_url}}/api/users/<int:id>/`     | Update User Details |
+        | DELETE `{{base_url}}/api/users/<int:id>/`  | Delete Task         |
         +--------------------------------------------+---------------------+
 
   - Tasks
