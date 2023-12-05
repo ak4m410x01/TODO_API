@@ -17,7 +17,7 @@ RUN apt update -qqq && \
 
 # clone repo into
 RUN git clone https://github.com/ak4m410x01/TODO_API/ .
-RUN rm -rf .git/
+RUN rm -rf .git/ README.md api.Dockerfile docker-compose.yml
 
 # copy .env files [containers SECRET VARIABLES] LIKE database username and password
 COPY .env .
@@ -31,4 +31,4 @@ RUN pip install --upgrade pip
 RUN pip install -r requirements.txt
 
 # expose port
-EXPOSE 8000
+EXPOSE 80
