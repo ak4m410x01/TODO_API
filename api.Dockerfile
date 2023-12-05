@@ -16,7 +16,7 @@ RUN apt update -qqq && \
     apt install -y git
 
 # clone repo into
-RUN git clone https://github.com/ak4m410x01/TODO_API/ .
+RUN git clone https://github.com/ak4m410x01/TODO_API.git .
 RUN rm -rf .git/ README.md api.Dockerfile docker-compose.yml
 
 # copy .env files [containers SECRET VARIABLES] LIKE database username and password
