@@ -4,9 +4,9 @@
 
 ### Key Features:
 
- - Django Rest Framework: Implemented RESTful endpoints to facilitate seamless communication between the front and back end, ensuring optimal performance and scalability.
- - PostgreSQL Database: Designed and maintained a PostgreSQL database to store and manage TODO tasks efficiently, ensuring data integrity and reliability.
- - User Authentication: Implemented secure authentication mechanisms using Tokens to control access to the TODO API, prioritizing data security and privacy.
+- Django Rest Framework: Implemented RESTful endpoints to facilitate seamless communication between the front and back end, ensuring optimal performance and scalability.
+- PostgreSQL Database: Designed and maintained a PostgreSQL database to store and manage TODO tasks efficiently, ensuring data integrity and reliability.
+- User Authentication: Implemented secure authentication mechanisms using Tokens to control access to the TODO API, prioritizing data security and privacy.
 
 <div align="center">
    <img src="./assets/images/cover.png">
@@ -146,7 +146,8 @@ these variables are for the lab environment only... don't use these in xxx produ
     | Name                | Version | Use               |
     | ------------------- | ------- | ----------------- |
     | Python              | 3.11.6  | Programming Lang  |
-    | djangorestframework | 3.14.0  | Restful framework |
+    | Django              | 5.0.0   | Django Framework  |
+    | djangorestframework | 3.14.0  | Restful Framework |
     | psycopg2-binary     | 2.9.9   | PostgreSQL DB lib |
     | python-dotenv       | 1.0.0   | To use .env file  |
     +---------------------+---------+-------------------+
