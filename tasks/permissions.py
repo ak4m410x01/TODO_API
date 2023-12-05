@@ -6,6 +6,3 @@ class IsTaskOwner(permissions.BasePermission):
         return bool(obj.user == request.user)
 
 
-class IsUserDetails(permissions.BasePermission):
-    def has_object_permission(self, request, view, obj):
-        return bool(obj == request.user)

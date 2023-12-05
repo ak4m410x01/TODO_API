@@ -134,8 +134,8 @@ these variables are for the lab environment only... don't use these in xxx produ
         +--------------------------------------------+----------------------+
         | Endpoints                                  | Use                  |
         | ------------------------------------------ | -------------------- |
-        | GET `{{base_url}}/token/`                  | Get Token            |
-        | POST `{{base_url}}/token/`                 | Regenerate New Token |
+        | GET `{{base_url}}/users/token/`            | Get Token            |
+        | POST `{{base_url}}/users/token/`           | Regenerate New Token |
         +--------------------------------------------+----------------------+
 
 ---
