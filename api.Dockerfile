@@ -12,15 +12,9 @@ SHELL [ "/bin/bash", "-c" ]
 
 # update/upgrade container & install git
 RUN apt update -qqq && \
-    apt upgrade -y -qqq && \
-    apt install -y git
+    apt upgrade -y -qqq
 
-# clone repo into
-RUN git clone https://github.com/ak4m410x01/TODO_API.git .
-RUN rm -rf .git/ README.md api.Dockerfile docker-compose.yml
-
-# copy .env files [containers SECRET VARIABLES] LIKE database username and password
-COPY .env .
+COPY . .
 
 # set environment variables
 ENV PYTHONDONTWRITEBYTECODE 1
