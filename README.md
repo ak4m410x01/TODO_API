@@ -4,9 +4,11 @@
 
 ### Key Features:
 
-- Django Rest Framework: Implemented RESTful endpoints to facilitate seamless communication between the front and back end, ensuring optimal performance and scalability.
-- PostgreSQL Database: Designed and maintained a PostgreSQL database to store and manage TODO tasks efficiently, ensuring data integrity and reliability.
-- User Authentication: Implemented secure authentication mechanisms using Tokens to control access to the TODO API, prioritizing data security and privacy.
+_Developed a robust TODO API leveraging **Django Rest Framework** and **PostgreSQL**, enabling users to seamlessly register with a unique username and password. Implemented secure authentication through security token features, facilitating secure login processes. The API further supports the creation of tasks with an initial false status, allowing users to mark them as complete upon task completion._
+
+- **Django Rest Framework:** Implemented RESTful endpoints to facilitate seamless communication between the front and back end, ensuring optimal performance and scalability.
+- **PostgreSQL Database:** Designed and maintained a PostgreSQL database to store and manage TODO tasks efficiently, ensuring data integrity and reliability.
+- **User Authentication:** Implemented secure authentication mechanisms using Tokens to control access to the TODO API, prioritizing data security and privacy.
 
 <div align="center">
    <img src="./assets/images/cover.png">
