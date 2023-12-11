@@ -4,7 +4,7 @@
 
 ### Key Features:
 
-_Developed a robust TODO API leveraging **Django Rest Framework** and **PostgreSQL**, enabling users to seamlessly register with a unique username and password. Implemented secure authentication through security token features, facilitating secure login processes. The API further supports the creation of tasks with an initial false status, allowing users to mark them as complete upon task completion._
+_Developed a robust TODO API leveraging **Django Rest Framework** and **PostgreSQL**, enabling users to seamlessly register with a unique username and password. Implemented secure authentication through security token features, facilitating secure login processes. The API further supports the creation of tasks with an initial false status, allowing users to mark them as complete upon task completion and then Deploy using **Docker** ._
 
 - **Django Rest Framework:** Implemented RESTful endpoints to facilitate seamless communication between the front and back end, ensuring optimal performance and scalability.
 - **PostgreSQL Database:** Designed and maintained a PostgreSQL database to store and manage TODO tasks efficiently, ensuring data integrity and reliability.
